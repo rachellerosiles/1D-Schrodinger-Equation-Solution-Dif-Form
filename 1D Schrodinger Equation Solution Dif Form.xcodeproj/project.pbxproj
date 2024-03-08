@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACFBE8EC2B9BB44200F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBE8EB2B9BB44200F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormApp.swift */; };
+		ACFBE8EE2B9BB44200F83125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBE8ED2B9BB44200F83125 /* ContentView.swift */; };
+		ACFBE8F02B9BB44400F83125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFBE8EF2B9BB44400F83125 /* Assets.xcassets */; };
+		ACFBE8F42B9BB44400F83125 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFBE8F32B9BB44400F83125 /* Preview Assets.xcassets */; };
+		ACFBE8FE2B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBE8FD2B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormTests.swift */; };
+		ACFBE9082B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBE9072B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormUITests.swift */; };
+		ACFBE90A2B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBE9092B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACFBE8FA2B9BB44400F83125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFBE8E02B9BB44200F83125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFBE8E72B9BB44200F83125;
+			remoteInfo = "1D Schrodinger Equation Solution Dif Form";
+		};
+		ACFBE9042B9BB44400F83125 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACFBE8E02B9BB44200F83125 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACFBE8E72B9BB44200F83125;
+			remoteInfo = "1D Schrodinger Equation Solution Dif Form";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACFBE8E82B9BB44200F83125 /* 1D Schrodinger Equation Solution Dif Form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1D Schrodinger Equation Solution Dif Form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFBE8EB2B9BB44200F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Schrodinger_Equation_Solution_Dif_FormApp.swift; sourceTree = "<group>"; };
+		ACFBE8ED2B9BB44200F83125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACFBE8EF2B9BB44400F83125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACFBE8F12B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_Form.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _D_Schrodinger_Equation_Solution_Dif_Form.entitlements; sourceTree = "<group>"; };
+		ACFBE8F32B9BB44400F83125 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACFBE8F92B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1D Schrodinger Equation Solution Dif FormTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFBE8FD2B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Schrodinger_Equation_Solution_Dif_FormTests.swift; sourceTree = "<group>"; };
+		ACFBE9032B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "1D Schrodinger Equation Solution Dif FormUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFBE9072B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Schrodinger_Equation_Solution_Dif_FormUITests.swift; sourceTree = "<group>"; };
+		ACFBE9092B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Schrodinger_Equation_Solution_Dif_FormUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACFBE8E52B9BB44200F83125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFBE8F62B9BB44400F83125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFBE9002B9BB44400F83125 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACFBE8DF2B9BB44200F83125 = {
+			isa = PBXGroup;
+			children = (
+				ACFBE8EA2B9BB44200F83125 /* 1D Schrodinger Equation Solution Dif Form */,
+				ACFBE8FC2B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormTests */,
+				ACFBE9062B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormUITests */,
+				ACFBE8E92B9BB44200F83125 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACFBE8E92B9BB44200F83125 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACFBE8E82B9BB44200F83125 /* 1D Schrodinger Equation Solution Dif Form.app */,
+				ACFBE8F92B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormTests.xctest */,
+				ACFBE9032B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACFBE8EA2B9BB44200F83125 /* 1D Schrodinger Equation Solution Dif Form */ = {
+			isa = PBXGroup;
+			children = (
+				ACFBE8EB2B9BB44200F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormApp.swift */,
+				ACFBE8ED2B9BB44200F83125 /* ContentView.swift */,
+				ACFBE8EF2B9BB44400F83125 /* Assets.xcassets */,
+				ACFBE8F12B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_Form.entitlements */,
+				ACFBE8F22B9BB44400F83125 /* Preview Content */,
+			);
+			path = "1D Schrodinger Equation Solution Dif Form";
+			sourceTree = "<group>";
+		};
+		ACFBE8F22B9BB44400F83125 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACFBE8F32B9BB44400F83125 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACFBE8FC2B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACFBE8FD2B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormTests.swift */,
+			);
+			path = "1D Schrodinger Equation Solution Dif FormTests";
+			sourceTree = "<group>";
+		};
+		ACFBE9062B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACFBE9072B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormUITests.swift */,
+				ACFBE9092B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormUITestsLaunchTests.swift */,
+			);
+			path = "1D Schrodinger Equation Solution Dif FormUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACFBE8E72B9BB44200F83125 /* 1D Schrodinger Equation Solution Dif Form */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFBE90D2B9BB44400F83125 /* Build configuration list for PBXNativeTarget "1D Schrodinger Equation Solution Dif Form" */;
+			buildPhases = (
+				ACFBE8E42B9BB44200F83125 /* Sources */,
+				ACFBE8E52B9BB44200F83125 /* Frameworks */,
+				ACFBE8E62B9BB44200F83125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1D Schrodinger Equation Solution Dif Form";
+			productName = "1D Schrodinger Equation Solution Dif Form";
+			productReference = ACFBE8E82B9BB44200F83125 /* 1D Schrodinger Equation Solution Dif Form.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACFBE8F82B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFBE9102B9BB44400F83125 /* Build configuration list for PBXNativeTarget "1D Schrodinger Equation Solution Dif FormTests" */;
+			buildPhases = (
+				ACFBE8F52B9BB44400F83125 /* Sources */,
+				ACFBE8F62B9BB44400F83125 /* Frameworks */,
+				ACFBE8F72B9BB44400F83125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFBE8FB2B9BB44400F83125 /* PBXTargetDependency */,
+			);
+			name = "1D Schrodinger Equation Solution Dif FormTests";
+			productName = "1D Schrodinger Equation Solution Dif FormTests";
+			productReference = ACFBE8F92B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACFBE9022B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACFBE9132B9BB44400F83125 /* Build configuration list for PBXNativeTarget "1D Schrodinger Equation Solution Dif FormUITests" */;
+			buildPhases = (
+				ACFBE8FF2B9BB44400F83125 /* Sources */,
+				ACFBE9002B9BB44400F83125 /* Frameworks */,
+				ACFBE9012B9BB44400F83125 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACFBE9052B9BB44400F83125 /* PBXTargetDependency */,
+			);
+			name = "1D Schrodinger Equation Solution Dif FormUITests";
+			productName = "1D Schrodinger Equation Solution Dif FormUITests";
+			productReference = ACFBE9032B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACFBE8E02B9BB44200F83125 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					ACFBE8E72B9BB44200F83125 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					ACFBE8F82B9BB44400F83125 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = ACFBE8E72B9BB44200F83125;
+					};
+					ACFBE9022B9BB44400F83125 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = ACFBE8E72B9BB44200F83125;
+					};
+				};
+			};
+			buildConfigurationList = ACFBE8E32B9BB44200F83125 /* Build configuration list for PBXProject "1D Schrodinger Equation Solution Dif Form" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACFBE8DF2B9BB44200F83125;
+			productRefGroup = ACFBE8E92B9BB44200F83125 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACFBE8E72B9BB44200F83125 /* 1D Schrodinger Equation Solution Dif Form */,
+				ACFBE8F82B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormTests */,
+				ACFBE9022B9BB44400F83125 /* 1D Schrodinger Equation Solution Dif FormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACFBE8E62B9BB44200F83125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFBE8F42B9BB44400F83125 /* Preview Assets.xcassets in Resources */,
+				ACFBE8F02B9BB44400F83125 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFBE8F72B9BB44400F83125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFBE9012B9BB44400F83125 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACFBE8E42B9BB44200F83125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFBE8EE2B9BB44200F83125 /* ContentView.swift in Sources */,
+				ACFBE8EC2B9BB44200F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFBE8F52B9BB44400F83125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFBE8FE2B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFBE8FF2B9BB44400F83125 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFBE9082B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormUITests.swift in Sources */,
+				ACFBE90A2B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACFBE8FB2B9BB44400F83125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFBE8E72B9BB44200F83125 /* 1D Schrodinger Equation Solution Dif Form */;
+			targetProxy = ACFBE8FA2B9BB44400F83125 /* PBXContainerItemProxy */;
+		};
+		ACFBE9052B9BB44400F83125 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACFBE8E72B9BB44200F83125 /* 1D Schrodinger Equation Solution Dif Form */;
+			targetProxy = ACFBE9042B9BB44400F83125 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACFBE90B2B9BB44400F83125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACFBE90C2B9BB44400F83125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ACFBE90E2B9BB44400F83125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "1D Schrodinger Equation Solution Dif Form/_D_Schrodinger_Equation_Solution_Dif_Form.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"1D Schrodinger Equation Solution Dif Form/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosiles.iit.phys440.-D-Schrodinger-Equation-Solution-Dif-Form";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACFBE90F2B9BB44400F83125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "1D Schrodinger Equation Solution Dif Form/_D_Schrodinger_Equation_Solution_Dif_Form.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"1D Schrodinger Equation Solution Dif Form/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosiles.iit.phys440.-D-Schrodinger-Equation-Solution-Dif-Form";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACFBE9112B9BB44400F83125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosiles.iit.phys440.-D-Schrodinger-Equation-Solution-Dif-FormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1D Schrodinger Equation Solution Dif Form.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/1D Schrodinger Equation Solution Dif Form";
+			};
+			name = Debug;
+		};
+		ACFBE9122B9BB44400F83125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosiles.iit.phys440.-D-Schrodinger-Equation-Solution-Dif-FormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/1D Schrodinger Equation Solution Dif Form.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/1D Schrodinger Equation Solution Dif Form";
+			};
+			name = Release;
+		};
+		ACFBE9142B9BB44400F83125 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosiles.iit.phys440.-D-Schrodinger-Equation-Solution-Dif-FormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "1D Schrodinger Equation Solution Dif Form";
+			};
+			name = Debug;
+		};
+		ACFBE9152B9BB44400F83125 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rosiles.iit.phys440.-D-Schrodinger-Equation-Solution-Dif-FormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "1D Schrodinger Equation Solution Dif Form";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACFBE8E32B9BB44200F83125 /* Build configuration list for PBXProject "1D Schrodinger Equation Solution Dif Form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFBE90B2B9BB44400F83125 /* Debug */,
+				ACFBE90C2B9BB44400F83125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFBE90D2B9BB44400F83125 /* Build configuration list for PBXNativeTarget "1D Schrodinger Equation Solution Dif Form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFBE90E2B9BB44400F83125 /* Debug */,
+				ACFBE90F2B9BB44400F83125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFBE9102B9BB44400F83125 /* Build configuration list for PBXNativeTarget "1D Schrodinger Equation Solution Dif FormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFBE9112B9BB44400F83125 /* Debug */,
+				ACFBE9122B9BB44400F83125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACFBE9132B9BB44400F83125 /* Build configuration list for PBXNativeTarget "1D Schrodinger Equation Solution Dif FormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACFBE9142B9BB44400F83125 /* Debug */,
+				ACFBE9152B9BB44400F83125 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACFBE8E02B9BB44200F83125 /* Project object */;
+}
