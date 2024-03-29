@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC370E032BAE20A9003E3CBA /* Potentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC370E022BAE20A9003E3CBA /* Potentials.swift */; };
+		AC370E052BAE26D5003E3CBA /* Runge-Kutta 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC370E042BAE26D5003E3CBA /* Runge-Kutta 4.swift */; };
+		AC370E062BAE26D5003E3CBA /* Runge-Kutta 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC370E042BAE26D5003E3CBA /* Runge-Kutta 4.swift */; };
+		AC370E072BAE26D5003E3CBA /* Runge-Kutta 4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC370E042BAE26D5003E3CBA /* Runge-Kutta 4.swift */; };
+		AC42E7AC2BB7458C008EBBCC /* Potential.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC42E7AB2BB7458C008EBBCC /* Potential.swift */; };
 		ACFBE8EC2B9BB44200F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBE8EB2B9BB44200F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormApp.swift */; };
 		ACFBE8EE2B9BB44200F83125 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFBE8ED2B9BB44200F83125 /* ContentView.swift */; };
 		ACFBE8F02B9BB44400F83125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACFBE8EF2B9BB44400F83125 /* Assets.xcassets */; };
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC370E022BAE20A9003E3CBA /* Potentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Potentials.swift; path = ../../Downloads/Potentials.swift; sourceTree = "<group>"; };
+		AC370E042BAE26D5003E3CBA /* Runge-Kutta 4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Runge-Kutta 4.swift"; sourceTree = "<group>"; };
+		AC42E7AB2BB7458C008EBBCC /* Potential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potential.swift; sourceTree = "<group>"; };
 		ACFBE8E82B9BB44200F83125 /* 1D Schrodinger Equation Solution Dif Form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1D Schrodinger Equation Solution Dif Form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFBE8EB2B9BB44200F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _D_Schrodinger_Equation_Solution_Dif_FormApp.swift; sourceTree = "<group>"; };
 		ACFBE8ED2B9BB44200F83125 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,9 +105,12 @@
 			children = (
 				ACFBE8EB2B9BB44200F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormApp.swift */,
 				ACFBE8ED2B9BB44200F83125 /* ContentView.swift */,
+				AC370E022BAE20A9003E3CBA /* Potentials.swift */,
 				ACFBE8EF2B9BB44400F83125 /* Assets.xcassets */,
 				ACFBE8F12B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_Form.entitlements */,
 				ACFBE8F22B9BB44400F83125 /* Preview Content */,
+				AC370E042BAE26D5003E3CBA /* Runge-Kutta 4.swift */,
+				AC42E7AB2BB7458C008EBBCC /* Potential.swift */,
 			);
 			path = "1D Schrodinger Equation Solution Dif Form";
 			sourceTree = "<group>";
@@ -259,6 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC370E032BAE20A9003E3CBA /* Potentials.swift in Sources */,
+				AC42E7AC2BB7458C008EBBCC /* Potential.swift in Sources */,
+				AC370E052BAE26D5003E3CBA /* Runge-Kutta 4.swift in Sources */,
 				ACFBE8EE2B9BB44200F83125 /* ContentView.swift in Sources */,
 				ACFBE8EC2B9BB44200F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormApp.swift in Sources */,
 			);
@@ -269,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACFBE8FE2B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormTests.swift in Sources */,
+				AC370E062BAE26D5003E3CBA /* Runge-Kutta 4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC370E072BAE26D5003E3CBA /* Runge-Kutta 4.swift in Sources */,
 				ACFBE9082B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormUITests.swift in Sources */,
 				ACFBE90A2B9BB44400F83125 /* _D_Schrodinger_Equation_Solution_Dif_FormUITestsLaunchTests.swift in Sources */,
 			);
